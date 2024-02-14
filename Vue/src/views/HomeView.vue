@@ -2,7 +2,7 @@
   <div>
 <DestCard v-for="destination in destinations" 
 :key="destination.name" 
-:Destination="destinations"/>
+:Destination="destination"/>
   </div>
 </template>
 
@@ -50,39 +50,39 @@
           img: "https://www.gourmetdash.com/media/catalog/product/cache/8794a98778c2ca77788a2eb8b07fbd40/1/0/1050_beauty_so9nea2ke2blirmu_1.jpg",
         },
         {
-          name: "Derby"
+          name: "Derby",
           price: 800,
-          img: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80&quot",
+          img: "https://s3.us-east-2.amazonaws.com/cheesemaking-supply-co/014bd94fee1e456d98c98a158d90b6dc.jpg",
         },
         {
           name: "Parmesan",
           price: 800,
-          img: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80&quot",
+          img: "https://frankenmuthcheesehaus.com/cdn/shop/products/PXL_20210430_200530224.PORTRAIT_1019x700.jpg?v=1619980804",
         },
         {
           name: "Pecorino Romano",
           price: 800,
-          img: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80&quot",
+          img: "https://www.cheese.com/media/img/cheese/Pecorino_romano_cheese.jpg",
         },
         {
           name: "Caciocavallo",
           price: 800,
-          img: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80&quot",
+          img: "https://www.cheese.com/media/img/cheese/Caciocavallo.jpg",
         },
         {
           name: "Danish Blue",
           price: 800,
-          img: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80&quot",
+          img: "https://dorothy-lane-market.s3.us-east-2.amazonaws.com/shop/items/danish-blue-1_662x450.JPEG",
         },
         {
           name: "Dorset Blue",
           price: 800,
-          img: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80&quot",
+          img: "https://upload.wikimedia.org/wikipedia/commons/6/67/Dorset_Blue_Vinney_cheese.jpg",
         },
         {
           name: "Gorgonzola",
           price: 800,
-          img: "https://images.unsplash.com/photo-1473580044384-7ba9967e16a0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80&quot",
+          img: "https://www.cheese.com/media/uploads/blog/2023/05/gorgonzola.jpg",
         },
       ]
 </script>
