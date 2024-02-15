@@ -1,9 +1,10 @@
 <template>
   <div>
 <h2>{{ Destination.name }}</h2>
+<h3>${{ Destination.price }}</h3>
 <img :src="Destination.img" alt="" />
 <h3>{{ clicked }}</h3>
-<button @clicked="increment">Click Me</button>
+<button @click="increment">Click Me</button>
   </div>
 </template>
 
