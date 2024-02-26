@@ -1,13 +1,13 @@
 <template>
   <div>
-<DestCard v-for="destination in destinations" 
+<CheeseCard v-for="destination in destinations" 
 :key="destination.name" 
 :Destination="destination"/>
   </div>
 </template>
 
 <script setup>
- import DestCard from "@/components/icons/DestCard.vue"
+ import CheeseCard from "@/components/icons/CheeseCard.vue"
  const destinations = [
         {
           name: "Cottage",
