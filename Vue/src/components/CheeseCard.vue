@@ -1,9 +1,9 @@
 <template>
   <div class="type">
-    <h1 class="milk">{{milk}}</h1>
+    <h1 class="cheese">{{cheese}}</h1>
     <img class="image" :src="img"/>
     <h1 class="price"> ${{price}}</h1>
-    <button class="shopcart" @click="$emit('addMilk')">Add To Cart</button>
+    <button class="shopcart" @click="$emit('addCheese')">Add To Cart</button>
   </div>
 </template>
 
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style>
-.milk {
+.cheese {
   font-size: 2rem;
   margin-bottom: 0rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
