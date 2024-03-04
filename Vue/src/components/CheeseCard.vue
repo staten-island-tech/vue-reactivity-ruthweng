@@ -11,7 +11,7 @@
 export default {
   name: "Card",
   props: {
-    milk: String,
+    cheese: String,
     price: Number,
     img: String,
     description: String,
