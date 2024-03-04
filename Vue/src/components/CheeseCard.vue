@@ -21,21 +21,22 @@ export default {
 
 <style>
 .milk {
-  font-size: 1.8rem;
+  font-size: 2rem;
   margin-bottom: 0rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color: white;
+  background-color: rgb(188, 197, 143);
   margin-left: 3rem;
+  border-radius: 8px;
 }
 .price {
-  background-color: white;
+  background-color: rgb(188, 197, 143);
   font-size: 30px;
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 3rem;
 }
 .image {
-  height: 1 rem;
+  height: 2 rem;
   width: auto ;
   object-fit: cover;
   display: block;
@@ -53,5 +54,6 @@ export default {
   font-size: 1.6rem;
   margin-left: 3rem;
   border-radius: 10px;
+  background-color: rgb(199, 177, 118);
 }
 </style>

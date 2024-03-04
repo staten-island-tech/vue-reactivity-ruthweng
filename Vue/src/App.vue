@@ -1,7 +1,7 @@
 <template>
   <div id="app">
   <section id="userInput">
-    <h1 id="header">Very Cheesy Store!</h1>
+    <h1 id="header">A Very Cheesy Store!</h1>
     <div class="milk-types">
     <Card
       class="type"
@@ -16,7 +16,7 @@
   </section>
 
   <section id="shoppingCart">
-    <h1>Shopping Cart</h1>
+    <h1>Your Cart</h1>
     <Cart
       class="cart"
       v-for="(milkType, index) in order"
@@ -155,14 +155,14 @@ methods: {
   text-align: center;
   color: #000000;
   font-family: 'Times New Roman', Times, serif;
-  font-size: 2.6rem;
+  font-size: 5rem;
   margin-bottom: 0.7rem;
 }
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   text-align: center;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   background-color: hsl(50, 52%, 85%);
   color: #000000;
   margin-bottom: 2rem;
@@ -170,11 +170,9 @@ methods: {
 .img {
   height: 5%;
   width: auto;
+  
 }
-#userInput {
-  width: 57vw;
-  height: auto;
-}
+
 .subtotal {
   font-size: 1.9rem;
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -187,7 +185,7 @@ methods: {
   margin-bottom: 3.7rem;
   height: auto;
   color: #000000;
-  width: 30vw;
+  width: 80vw;
   margin-left: 6rem;
   font-size: 1.5rem;
   flex-direction: column;
@@ -205,11 +203,11 @@ methods: {
   font-size: 1.3rem;
   justify-content: center;
   border-radius: 10px;
-  width: 35%;
+  width: 20%;
 }
 section {
   display: flex;
   align-items: center;
-  flex-direction: row;
+  flex-direction: column;
 }
 </style>./components/CheeseCard.vue./components/CheeseCart.vue
