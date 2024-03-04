@@ -179,7 +179,6 @@ methods: {
 }
 #shoppingCart {
   background-color: #e4663c;
-  border: 10px hsl(27, 56%, 52%) solid;
   border-radius: 10px;
   margin-top: 5rem;
   margin-bottom: 3.7rem;
